@@ -1,0 +1,48 @@
+body{
+    background-color:gold;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+#wrapper{
+    background-color: gold;
+    height: 500px;
+    /*NAVBAR*/
+}
+nav.navbar {
+    background-color: rgba(255, 239, 16, 0.658);
+}
+nav.navbar a{
+    color: black;
+    font-weight: bold;
+}
+nav.navbar li:hover a{
+    color: white
+}
+
+/*CAROUSEL*/
+
+  
+  .carousel-indicators .active {
+    background-color: black;
+  }  
+.carousel-control-next {
+    filter: invert(100%);
+}
+.carousel-control-prev {
+    filter: invert(100%);
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 60px;
+    text-align: center;
+    text-decoration: none;
+  }
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
